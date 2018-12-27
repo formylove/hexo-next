@@ -2,7 +2,7 @@
 comments: false
 type: about
 date: 2018-12-18 13:02:35
-title: about
+toc: false
 ---
 {% cq %}<big>*** 墨水儿 ***</big>{% endcq %}
 

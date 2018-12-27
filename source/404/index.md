@@ -1,10 +1,11 @@
 ---
 title: 404
-date: 2018-12-20 10:10:43
 comments: false
-type: commonweal 
-permalink: "404"
+type: commonweal
+permalink: '404'
+date: 2018-12-20 10:10:43
 ---
+
 <!DOCTYPE HTML>
 <html>
 <head>
