@@ -1,14 +1,15 @@
 ---
-title:
 comments: false
 type: about
 date: 2018-12-18 13:02:35
+title: about
 ---
 {% cq %}<big>*** 墨水儿 ***</big>{% endcq %}
 
     
 
 # 联系方式
+
 
 （HR会打印你的简历，用于在面试的时候联系，所以联系方式放到最上边会比较方便）
 
@@ -116,4 +117,3 @@ date: 2018-12-18 13:02:35
 - 版本管理、文档和自动化部署工具：Svn/Git/PHPDoc/Phing/Composer
 - 单元测试：PHPUnit/SimpleTest/Qunit
 - 云和开放平台：SAE/BAE/AWS/微博开放平台/微信应用开发
-      
