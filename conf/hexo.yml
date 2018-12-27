@@ -10,12 +10,10 @@ keywords: java coding life python javascript nodejs
 author: Sarah 
 language:
 timezone:
+metadata:
+  author_id: defaultAuthorId
+  language:
 
-#Me
-sitemap:
-  path: sitemap.xml
-baidusitemap:
-  path: baidusitemap.xml
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -24,14 +22,12 @@ root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
-# adimin ?????????????https://github.com/jaredly/hexo-admin
+# adimin turorial: https://github.com/jaredly/hexo-admin
 admin:
   username: 
   password_hash: 
   secret: 
-metadata:
-  author_id: defaultAuthorId
-  language:
+
 
 
 
@@ -44,7 +40,10 @@ search:
   format: html
   limit: 10000
 
-
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
 
 
 
