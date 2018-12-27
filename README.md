@@ -1,6 +1,6 @@
-### 第一步：从官方镜像库里拉取镜像ansyxz/hexo-next:share
+### 第一步：从官方镜像库里拉取镜像ansyxz/hexo-next
 ```
-docker pull ansyxz/hexo-next:share
+docker pull ansyxz/hexo-next
 ```
 
 ### 第二步：将挂载点所需的配置以及资源文件从github版本库下载至本机并解压到同一目录下，比如/app/hexo/目录下，[点击下载hexo-next配置以及资源文件](https://github.com/formylove/hexo-next/archive/master.zip)。
@@ -48,4 +48,7 @@ ansyxz/hexo-next :share
 
 
 
-6. Contribute!
+6. 重启docker
+
+#### 以上是所有部署操作
+如果你觉得我的docker对你有所帮助，请star一下我的github哦
