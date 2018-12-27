@@ -20,8 +20,8 @@ docker pull ansyxz/hexo-next
 2. 必须要提前配置的配置项目我已经放在了<kbd>conf/next.yml</kbd>文件的开头部分，其中包括菜单以及菜单图标（<kbd>menu</kbd>），页脚（<kbd>footer</kbd>），联系方式以及社交账号（<kbd>social</kbd>），备案（<kbd>beian</kbd>）
 
 3. 配置网站图标（<kbd>favicon</kbd>），网站抬头的logo（<kbd>custom_logo</kbd>），侧边栏个人头像（<kbd>avatar</kbd>），打赏收款码（<kbd>reward</kbd>），具体操作方法（以网站图标为例）：
-3.1 将想要的网站图标图片放置于本地<kbd>next/source/images/</kbd>目录下
-3.2 将<kbd>conf/next.yml</kbd>的<kbd>favicon</kbd>属性修改为图片的文件名，其中的<kbd>small</kbd>属性对应16×16大小的图片，<kbd>medium</kbd>属性对应32×32大小图片
+ 3.1 将想要的网站图标图片放置于本地<kbd>next/source/images/</kbd>目录下
+ 3.2 将<kbd>conf/next.yml</kbd>的<kbd>favicon</kbd>属性修改为图片的文件名，其中的<kbd>small</kbd>属性对应16×16大小的图片，<kbd>medium</kbd>属性对应32×32大小图片
 4. 配置第三方文章评论系统Valine，教程 ☞ [Valine](https://www.jianshu.com/p/dda25ffcfd43)
 
 ### 第五步：挂载配置以及资源文件并启动（需要将命令中的 /your/path替换为你本地path）
