@@ -34,10 +34,10 @@ ansyxz/hexo-next
 ```
 ### 第六步：启动成功后，配置后台管理Admin的登陆用户名以及密码
 
-#### 其中需要admin插件为博客后台编辑插件，具体操作如下：
+#### 其中需要Admin插件为博客后台编辑插件，具体操作如下：
 1.  启动 Hexo 后在浏览器中输入后台地址：yoursite.com/admin（此处yoursite.com为你的域名或者ip），此时的后台还没有登陆用户密码验证
 
-2. 在admin页面上接着打开<kbd>Settings</kbd> > <kbd>Setup authentification</kbd>
+2. 在Admin页面上接着打开<kbd>Settings</kbd> > <kbd>Setup authentification</kbd>
 
 3. 填写用户名密码加密字符的信息
 ![image.png](https://upload-images.jianshu.io/upload_images/2062562-2481597e2c14080c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
