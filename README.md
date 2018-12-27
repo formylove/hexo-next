@@ -30,7 +30,7 @@ docker run --name next -ti -p 80:4000
 -v /your/path/conf:/var/app/moshuier/conf/ \
 -v /your/path/source:/var/app/moshuier/source/ \
 -v /your/path/next/source/images/:/var/app/moshuier/themes/next/source/images/  \
-ansyxz/hexo-next :share
+ansyxz/hexo-next
 ```
 ### 第六步：启动成功后，配置后台管理Admin的登陆用户名以及密码
 
