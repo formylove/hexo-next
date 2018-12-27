@@ -1,4 +1,4 @@
-### 第一步：从官方镜像库里拉取镜像ansyxz/hexo-next
+### 第一步：从官方镜像库里拉取镜像<kbd>ansyxz/hexo-next</kbd>
 ```
 docker pull ansyxz/hexo-next
 ```
