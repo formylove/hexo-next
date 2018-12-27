@@ -1,21 +1,21 @@
-### 第一步：从官方镜像库里拉取镜像<kbd>ansyxz/hexo-next</kbd>
+### 第一步：从官方镜像库里拉取镜像 <kbd>ansyxz/hexo-next</kbd>
 ```
 docker pull ansyxz/hexo-next
 ```
 
 ### 第二步：将挂载点所需的配置以及资源文件从github版本库下载至本机并解压到同一目录下，比如/app/hexo/目录下，[点击下载hexo-next配置以及资源文件](https://github.com/formylove/hexo-next/archive/master.zip)。
-#### 其中各个文件以及目录作用
+#### 各个文件以及目录作用
 * <kbd>conf/hexo.yml</kbd>：包含hexo的相关配置
 * <kbd>conf/next.yml</kbd>：包含nexT主题的相关配置
 * <kbd>next/source/images/</kbd>：放置网站图片资源，主要包括收款码，logo，头像等
 * <kbd>source/</kbd>：保存文章，about/categories/tags的页面以及文章用到的图片
 
-### 第三步：在本机修改<kbd>conf/hexo.yml</kbd>配置文件
+### 第三步：修改 <kbd>conf/hexo.yml</kbd>配置文件
 > 其中<kbd>conf/next.yml</kbd>是hexo框架的配置文件，其中需要设置网站名称（<kbd>title</kbd>），网站作者（<kbd>author</kbd>），网站描述（<kbd>description</kbd>），网站关键词（<kbd>keywords</kbd>），网站网址（<kbd>url</kbd>）。
 
 
-### 第四步：配置下载好的配置文件--<kbd>conf/next.yml</kbd>
-1. 首先祭出next官网详细的配置说明：[nexT](https://theme-next.iissnan.com/getting-started.html)，里面详细介绍了配置文件配置的配置细节
+### 第四步：修改 <kbd>conf/next.yml</kbd>配置文件
+1. 首先祭出nexT官网详细的配置说明：[nexT](https://theme-next.iissnan.com/getting-started.html)，里面详细介绍了配置文件配置的配置细节
 
 2. 必须要提前配置的配置项目我已经放在了<kbd>conf/next.yml</kbd>文件的开头部分，其中包括菜单以及菜单图标（<kbd>menu</kbd>），页脚（<kbd>footer</kbd>），联系方式以及社交账号（<kbd>social</kbd>），备案（<kbd>beian</kbd>）
 
